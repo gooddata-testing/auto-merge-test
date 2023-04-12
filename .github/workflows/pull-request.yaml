@@ -3,6 +3,7 @@ name: Wait 20 seconds to simulate check pipeline
 "on":
   pull_request:
     types: [opened, reopened, synchronize]
+  merge_group:
 
 jobs:
   pull-request:
